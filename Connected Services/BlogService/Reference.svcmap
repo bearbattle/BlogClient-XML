@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7eb8d359-ea34-42d2-bb24-19bd5dcaf053" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="53083622-36a8-4801-ac99-2534ffebe0ea" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,11 +19,11 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:54783/BlogService.asmx" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://10.212.27.133/BlogService.asmx" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="BlogService.wsdl" MetadataType="Wsdl" ID="275635b5-1ade-48ef-95b4-99ba6a1f3a7f" SourceId="1" SourceUrl="http://localhost:54783/BlogService.asmx?wsdl" />
-    <MetadataFile FileName="BlogService.disco" MetadataType="Disco" ID="a40092d0-5ab3-49ca-ad60-8039fc9329af" SourceId="1" SourceUrl="http://localhost:54783/BlogService.asmx?disco" />
+    <MetadataFile FileName="BlogService.wsdl" MetadataType="Wsdl" ID="b1c2b9e4-9307-48dc-b331-3bbbac3ec05d" SourceId="1" SourceUrl="http://10.212.27.133/BlogService.asmx?wsdl" />
+    <MetadataFile FileName="BlogService.disco" MetadataType="Disco" ID="c548eb1a-57e8-45f7-8db9-286d39c71c3e" SourceId="1" SourceUrl="http://10.212.27.133/BlogService.asmx?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

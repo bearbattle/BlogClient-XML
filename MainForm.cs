@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BlogClient.BlogService;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,9 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using WindowsFormsApp1.BlogService;
 
-namespace WindowsFormsApp1
+namespace BlogClient
 {
     public partial class MainForm : Form
     {

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsApp1.BlogService {
+namespace BlogClient.BlogService {
     using System.Runtime.Serialization;
     using System;
     
@@ -190,7 +190,7 @@ namespace WindowsFormsApp1.BlogService {
         private string UpdateTimeField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private WindowsFormsApp1.BlogService.CommentInfo[] CommentsField;
+        private BlogClient.BlogService.CommentInfo[] CommentsField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -268,7 +268,7 @@ namespace WindowsFormsApp1.BlogService {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=5)]
-        public WindowsFormsApp1.BlogService.CommentInfo[] Comments {
+        public BlogClient.BlogService.CommentInfo[] Comments {
             get {
                 return this.CommentsField;
             }
@@ -357,59 +357,59 @@ namespace WindowsFormsApp1.BlogService {
         
         // CODEGEN: 命名空间 http://bearhuchao.top/ 的元素名称 username 以后生成的消息协定未标记为 nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/AddUser", ReplyAction="*")]
-        WindowsFormsApp1.BlogService.AddUserResponse AddUser(WindowsFormsApp1.BlogService.AddUserRequest request);
+        BlogClient.BlogService.AddUserResponse AddUser(BlogClient.BlogService.AddUserRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/AddUser", ReplyAction="*")]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.AddUserResponse> AddUserAsync(WindowsFormsApp1.BlogService.AddUserRequest request);
+        System.Threading.Tasks.Task<BlogClient.BlogService.AddUserResponse> AddUserAsync(BlogClient.BlogService.AddUserRequest request);
         
         // CODEGEN: 命名空间 http://bearhuchao.top/ 的元素名称 username 以后生成的消息协定未标记为 nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/GetUser", ReplyAction="*")]
-        WindowsFormsApp1.BlogService.GetUserResponse GetUser(WindowsFormsApp1.BlogService.GetUserRequest request);
+        BlogClient.BlogService.GetUserResponse GetUser(BlogClient.BlogService.GetUserRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/GetUser", ReplyAction="*")]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.GetUserResponse> GetUserAsync(WindowsFormsApp1.BlogService.GetUserRequest request);
+        System.Threading.Tasks.Task<BlogClient.BlogService.GetUserResponse> GetUserAsync(BlogClient.BlogService.GetUserRequest request);
         
         // CODEGEN: 命名空间 http://bearhuchao.top/ 的元素名称 GetUsersResult 以后生成的消息协定未标记为 nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/GetUsers", ReplyAction="*")]
-        WindowsFormsApp1.BlogService.GetUsersResponse GetUsers(WindowsFormsApp1.BlogService.GetUsersRequest request);
+        BlogClient.BlogService.GetUsersResponse GetUsers(BlogClient.BlogService.GetUsersRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/GetUsers", ReplyAction="*")]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.GetUsersResponse> GetUsersAsync(WindowsFormsApp1.BlogService.GetUsersRequest request);
+        System.Threading.Tasks.Task<BlogClient.BlogService.GetUsersResponse> GetUsersAsync(BlogClient.BlogService.GetUsersRequest request);
         
         // CODEGEN: 命名空间 http://bearhuchao.top/ 的元素名称 title 以后生成的消息协定未标记为 nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/AddBlog", ReplyAction="*")]
-        WindowsFormsApp1.BlogService.AddBlogResponse AddBlog(WindowsFormsApp1.BlogService.AddBlogRequest request);
+        BlogClient.BlogService.AddBlogResponse AddBlog(BlogClient.BlogService.AddBlogRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/AddBlog", ReplyAction="*")]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.AddBlogResponse> AddBlogAsync(WindowsFormsApp1.BlogService.AddBlogRequest request);
+        System.Threading.Tasks.Task<BlogClient.BlogService.AddBlogResponse> AddBlogAsync(BlogClient.BlogService.AddBlogRequest request);
         
         // CODEGEN: 命名空间 http://bearhuchao.top/ 的元素名称 id 以后生成的消息协定未标记为 nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/GetBlogs", ReplyAction="*")]
-        WindowsFormsApp1.BlogService.GetBlogsResponse GetBlogs(WindowsFormsApp1.BlogService.GetBlogsRequest request);
+        BlogClient.BlogService.GetBlogsResponse GetBlogs(BlogClient.BlogService.GetBlogsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/GetBlogs", ReplyAction="*")]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.GetBlogsResponse> GetBlogsAsync(WindowsFormsApp1.BlogService.GetBlogsRequest request);
+        System.Threading.Tasks.Task<BlogClient.BlogService.GetBlogsResponse> GetBlogsAsync(BlogClient.BlogService.GetBlogsRequest request);
         
         // CODEGEN: 命名空间 http://bearhuchao.top/ 的元素名称 id 以后生成的消息协定未标记为 nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/GetBlogDetail", ReplyAction="*")]
-        WindowsFormsApp1.BlogService.GetBlogDetailResponse GetBlogDetail(WindowsFormsApp1.BlogService.GetBlogDetailRequest request);
+        BlogClient.BlogService.GetBlogDetailResponse GetBlogDetail(BlogClient.BlogService.GetBlogDetailRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/GetBlogDetail", ReplyAction="*")]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.GetBlogDetailResponse> GetBlogDetailAsync(WindowsFormsApp1.BlogService.GetBlogDetailRequest request);
+        System.Threading.Tasks.Task<BlogClient.BlogService.GetBlogDetailResponse> GetBlogDetailAsync(BlogClient.BlogService.GetBlogDetailRequest request);
         
         // CODEGEN: 命名空间 http://bearhuchao.top/ 的元素名称 BlogId 以后生成的消息协定未标记为 nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/GetBlogComments", ReplyAction="*")]
-        WindowsFormsApp1.BlogService.GetBlogCommentsResponse GetBlogComments(WindowsFormsApp1.BlogService.GetBlogCommentsRequest request);
+        BlogClient.BlogService.GetBlogCommentsResponse GetBlogComments(BlogClient.BlogService.GetBlogCommentsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/GetBlogComments", ReplyAction="*")]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.GetBlogCommentsResponse> GetBlogCommentsAsync(WindowsFormsApp1.BlogService.GetBlogCommentsRequest request);
+        System.Threading.Tasks.Task<BlogClient.BlogService.GetBlogCommentsResponse> GetBlogCommentsAsync(BlogClient.BlogService.GetBlogCommentsRequest request);
         
         // CODEGEN: 命名空间 http://bearhuchao.top/ 的元素名称 BlogId 以后生成的消息协定未标记为 nillable
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/AddBlogComment", ReplyAction="*")]
-        WindowsFormsApp1.BlogService.AddBlogCommentResponse AddBlogComment(WindowsFormsApp1.BlogService.AddBlogCommentRequest request);
+        BlogClient.BlogService.AddBlogCommentResponse AddBlogComment(BlogClient.BlogService.AddBlogCommentRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://bearhuchao.top/AddBlogComment", ReplyAction="*")]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.AddBlogCommentResponse> AddBlogCommentAsync(WindowsFormsApp1.BlogService.AddBlogCommentRequest request);
+        System.Threading.Tasks.Task<BlogClient.BlogService.AddBlogCommentResponse> AddBlogCommentAsync(BlogClient.BlogService.AddBlogCommentRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -419,12 +419,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class AddUserRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="AddUser", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.AddUserRequestBody Body;
+        public BlogClient.BlogService.AddUserRequestBody Body;
         
         public AddUserRequest() {
         }
         
-        public AddUserRequest(WindowsFormsApp1.BlogService.AddUserRequestBody Body) {
+        public AddUserRequest(BlogClient.BlogService.AddUserRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -453,12 +453,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class AddUserResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="AddUserResponse", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.AddUserResponseBody Body;
+        public BlogClient.BlogService.AddUserResponseBody Body;
         
         public AddUserResponse() {
         }
         
-        public AddUserResponse(WindowsFormsApp1.BlogService.AddUserResponseBody Body) {
+        public AddUserResponse(BlogClient.BlogService.AddUserResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -487,12 +487,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class GetUserRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="GetUser", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.GetUserRequestBody Body;
+        public BlogClient.BlogService.GetUserRequestBody Body;
         
         public GetUserRequest() {
         }
         
-        public GetUserRequest(WindowsFormsApp1.BlogService.GetUserRequestBody Body) {
+        public GetUserRequest(BlogClient.BlogService.GetUserRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -521,12 +521,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class GetUserResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="GetUserResponse", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.GetUserResponseBody Body;
+        public BlogClient.BlogService.GetUserResponseBody Body;
         
         public GetUserResponse() {
         }
         
-        public GetUserResponse(WindowsFormsApp1.BlogService.GetUserResponseBody Body) {
+        public GetUserResponse(BlogClient.BlogService.GetUserResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -538,12 +538,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class GetUserResponseBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public WindowsFormsApp1.BlogService.UserInfo GetUserResult;
+        public BlogClient.BlogService.UserInfo GetUserResult;
         
         public GetUserResponseBody() {
         }
         
-        public GetUserResponseBody(WindowsFormsApp1.BlogService.UserInfo GetUserResult) {
+        public GetUserResponseBody(BlogClient.BlogService.UserInfo GetUserResult) {
             this.GetUserResult = GetUserResult;
         }
     }
@@ -555,12 +555,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class GetUsersRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="GetUsers", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.GetUsersRequestBody Body;
+        public BlogClient.BlogService.GetUsersRequestBody Body;
         
         public GetUsersRequest() {
         }
         
-        public GetUsersRequest(WindowsFormsApp1.BlogService.GetUsersRequestBody Body) {
+        public GetUsersRequest(BlogClient.BlogService.GetUsersRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -582,12 +582,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class GetUsersResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="GetUsersResponse", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.GetUsersResponseBody Body;
+        public BlogClient.BlogService.GetUsersResponseBody Body;
         
         public GetUsersResponse() {
         }
         
-        public GetUsersResponse(WindowsFormsApp1.BlogService.GetUsersResponseBody Body) {
+        public GetUsersResponse(BlogClient.BlogService.GetUsersResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -599,12 +599,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class GetUsersResponseBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public WindowsFormsApp1.BlogService.UserInfo[] GetUsersResult;
+        public BlogClient.BlogService.UserInfo[] GetUsersResult;
         
         public GetUsersResponseBody() {
         }
         
-        public GetUsersResponseBody(WindowsFormsApp1.BlogService.UserInfo[] GetUsersResult) {
+        public GetUsersResponseBody(BlogClient.BlogService.UserInfo[] GetUsersResult) {
             this.GetUsersResult = GetUsersResult;
         }
     }
@@ -616,12 +616,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class AddBlogRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="AddBlog", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.AddBlogRequestBody Body;
+        public BlogClient.BlogService.AddBlogRequestBody Body;
         
         public AddBlogRequest() {
         }
         
-        public AddBlogRequest(WindowsFormsApp1.BlogService.AddBlogRequestBody Body) {
+        public AddBlogRequest(BlogClient.BlogService.AddBlogRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -658,12 +658,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class AddBlogResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="AddBlogResponse", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.AddBlogResponseBody Body;
+        public BlogClient.BlogService.AddBlogResponseBody Body;
         
         public AddBlogResponse() {
         }
         
-        public AddBlogResponse(WindowsFormsApp1.BlogService.AddBlogResponseBody Body) {
+        public AddBlogResponse(BlogClient.BlogService.AddBlogResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -692,12 +692,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class GetBlogsRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="GetBlogs", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.GetBlogsRequestBody Body;
+        public BlogClient.BlogService.GetBlogsRequestBody Body;
         
         public GetBlogsRequest() {
         }
         
-        public GetBlogsRequest(WindowsFormsApp1.BlogService.GetBlogsRequestBody Body) {
+        public GetBlogsRequest(BlogClient.BlogService.GetBlogsRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -726,12 +726,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class GetBlogsResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="GetBlogsResponse", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.GetBlogsResponseBody Body;
+        public BlogClient.BlogService.GetBlogsResponseBody Body;
         
         public GetBlogsResponse() {
         }
         
-        public GetBlogsResponse(WindowsFormsApp1.BlogService.GetBlogsResponseBody Body) {
+        public GetBlogsResponse(BlogClient.BlogService.GetBlogsResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -743,12 +743,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class GetBlogsResponseBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public WindowsFormsApp1.BlogService.BlogInfo[] GetBlogsResult;
+        public BlogClient.BlogService.BlogInfo[] GetBlogsResult;
         
         public GetBlogsResponseBody() {
         }
         
-        public GetBlogsResponseBody(WindowsFormsApp1.BlogService.BlogInfo[] GetBlogsResult) {
+        public GetBlogsResponseBody(BlogClient.BlogService.BlogInfo[] GetBlogsResult) {
             this.GetBlogsResult = GetBlogsResult;
         }
     }
@@ -760,12 +760,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class GetBlogDetailRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="GetBlogDetail", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.GetBlogDetailRequestBody Body;
+        public BlogClient.BlogService.GetBlogDetailRequestBody Body;
         
         public GetBlogDetailRequest() {
         }
         
-        public GetBlogDetailRequest(WindowsFormsApp1.BlogService.GetBlogDetailRequestBody Body) {
+        public GetBlogDetailRequest(BlogClient.BlogService.GetBlogDetailRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -794,12 +794,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class GetBlogDetailResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="GetBlogDetailResponse", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.GetBlogDetailResponseBody Body;
+        public BlogClient.BlogService.GetBlogDetailResponseBody Body;
         
         public GetBlogDetailResponse() {
         }
         
-        public GetBlogDetailResponse(WindowsFormsApp1.BlogService.GetBlogDetailResponseBody Body) {
+        public GetBlogDetailResponse(BlogClient.BlogService.GetBlogDetailResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -811,12 +811,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class GetBlogDetailResponseBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public WindowsFormsApp1.BlogService.BlogDetail GetBlogDetailResult;
+        public BlogClient.BlogService.BlogDetail GetBlogDetailResult;
         
         public GetBlogDetailResponseBody() {
         }
         
-        public GetBlogDetailResponseBody(WindowsFormsApp1.BlogService.BlogDetail GetBlogDetailResult) {
+        public GetBlogDetailResponseBody(BlogClient.BlogService.BlogDetail GetBlogDetailResult) {
             this.GetBlogDetailResult = GetBlogDetailResult;
         }
     }
@@ -828,12 +828,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class GetBlogCommentsRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="GetBlogComments", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.GetBlogCommentsRequestBody Body;
+        public BlogClient.BlogService.GetBlogCommentsRequestBody Body;
         
         public GetBlogCommentsRequest() {
         }
         
-        public GetBlogCommentsRequest(WindowsFormsApp1.BlogService.GetBlogCommentsRequestBody Body) {
+        public GetBlogCommentsRequest(BlogClient.BlogService.GetBlogCommentsRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -862,12 +862,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class GetBlogCommentsResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="GetBlogCommentsResponse", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.GetBlogCommentsResponseBody Body;
+        public BlogClient.BlogService.GetBlogCommentsResponseBody Body;
         
         public GetBlogCommentsResponse() {
         }
         
-        public GetBlogCommentsResponse(WindowsFormsApp1.BlogService.GetBlogCommentsResponseBody Body) {
+        public GetBlogCommentsResponse(BlogClient.BlogService.GetBlogCommentsResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -879,12 +879,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class GetBlogCommentsResponseBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public WindowsFormsApp1.BlogService.CommentInfo[] GetBlogCommentsResult;
+        public BlogClient.BlogService.CommentInfo[] GetBlogCommentsResult;
         
         public GetBlogCommentsResponseBody() {
         }
         
-        public GetBlogCommentsResponseBody(WindowsFormsApp1.BlogService.CommentInfo[] GetBlogCommentsResult) {
+        public GetBlogCommentsResponseBody(BlogClient.BlogService.CommentInfo[] GetBlogCommentsResult) {
             this.GetBlogCommentsResult = GetBlogCommentsResult;
         }
     }
@@ -896,12 +896,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class AddBlogCommentRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="AddBlogComment", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.AddBlogCommentRequestBody Body;
+        public BlogClient.BlogService.AddBlogCommentRequestBody Body;
         
         public AddBlogCommentRequest() {
         }
         
-        public AddBlogCommentRequest(WindowsFormsApp1.BlogService.AddBlogCommentRequestBody Body) {
+        public AddBlogCommentRequest(BlogClient.BlogService.AddBlogCommentRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -938,12 +938,12 @@ namespace WindowsFormsApp1.BlogService {
     public partial class AddBlogCommentResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Name="AddBlogCommentResponse", Namespace="http://bearhuchao.top/", Order=0)]
-        public WindowsFormsApp1.BlogService.AddBlogCommentResponseBody Body;
+        public BlogClient.BlogService.AddBlogCommentResponseBody Body;
         
         public AddBlogCommentResponse() {
         }
         
-        public AddBlogCommentResponse(WindowsFormsApp1.BlogService.AddBlogCommentResponseBody Body) {
+        public AddBlogCommentResponse(BlogClient.BlogService.AddBlogCommentResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -966,12 +966,12 @@ namespace WindowsFormsApp1.BlogService {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface BlogServiceSoapChannel : WindowsFormsApp1.BlogService.BlogServiceSoap, System.ServiceModel.IClientChannel {
+    public interface BlogServiceSoapChannel : BlogClient.BlogService.BlogServiceSoap, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class BlogServiceSoapClient : System.ServiceModel.ClientBase<WindowsFormsApp1.BlogService.BlogServiceSoap>, WindowsFormsApp1.BlogService.BlogServiceSoap {
+    public partial class BlogServiceSoapClient : System.ServiceModel.ClientBase<BlogClient.BlogService.BlogServiceSoap>, BlogClient.BlogService.BlogServiceSoap {
         
         public BlogServiceSoapClient() {
         }
@@ -993,209 +993,209 @@ namespace WindowsFormsApp1.BlogService {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApp1.BlogService.AddUserResponse WindowsFormsApp1.BlogService.BlogServiceSoap.AddUser(WindowsFormsApp1.BlogService.AddUserRequest request) {
+        BlogClient.BlogService.AddUserResponse BlogClient.BlogService.BlogServiceSoap.AddUser(BlogClient.BlogService.AddUserRequest request) {
             return base.Channel.AddUser(request);
         }
         
         public string AddUser(string username) {
-            WindowsFormsApp1.BlogService.AddUserRequest inValue = new WindowsFormsApp1.BlogService.AddUserRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.AddUserRequestBody();
+            BlogClient.BlogService.AddUserRequest inValue = new BlogClient.BlogService.AddUserRequest();
+            inValue.Body = new BlogClient.BlogService.AddUserRequestBody();
             inValue.Body.username = username;
-            WindowsFormsApp1.BlogService.AddUserResponse retVal = ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).AddUser(inValue);
+            BlogClient.BlogService.AddUserResponse retVal = ((BlogClient.BlogService.BlogServiceSoap)(this)).AddUser(inValue);
             return retVal.Body.AddUserResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.AddUserResponse> WindowsFormsApp1.BlogService.BlogServiceSoap.AddUserAsync(WindowsFormsApp1.BlogService.AddUserRequest request) {
+        System.Threading.Tasks.Task<BlogClient.BlogService.AddUserResponse> BlogClient.BlogService.BlogServiceSoap.AddUserAsync(BlogClient.BlogService.AddUserRequest request) {
             return base.Channel.AddUserAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.AddUserResponse> AddUserAsync(string username) {
-            WindowsFormsApp1.BlogService.AddUserRequest inValue = new WindowsFormsApp1.BlogService.AddUserRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.AddUserRequestBody();
+        public System.Threading.Tasks.Task<BlogClient.BlogService.AddUserResponse> AddUserAsync(string username) {
+            BlogClient.BlogService.AddUserRequest inValue = new BlogClient.BlogService.AddUserRequest();
+            inValue.Body = new BlogClient.BlogService.AddUserRequestBody();
             inValue.Body.username = username;
-            return ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).AddUserAsync(inValue);
+            return ((BlogClient.BlogService.BlogServiceSoap)(this)).AddUserAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApp1.BlogService.GetUserResponse WindowsFormsApp1.BlogService.BlogServiceSoap.GetUser(WindowsFormsApp1.BlogService.GetUserRequest request) {
+        BlogClient.BlogService.GetUserResponse BlogClient.BlogService.BlogServiceSoap.GetUser(BlogClient.BlogService.GetUserRequest request) {
             return base.Channel.GetUser(request);
         }
         
-        public WindowsFormsApp1.BlogService.UserInfo GetUser(string username) {
-            WindowsFormsApp1.BlogService.GetUserRequest inValue = new WindowsFormsApp1.BlogService.GetUserRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.GetUserRequestBody();
+        public BlogClient.BlogService.UserInfo GetUser(string username) {
+            BlogClient.BlogService.GetUserRequest inValue = new BlogClient.BlogService.GetUserRequest();
+            inValue.Body = new BlogClient.BlogService.GetUserRequestBody();
             inValue.Body.username = username;
-            WindowsFormsApp1.BlogService.GetUserResponse retVal = ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).GetUser(inValue);
+            BlogClient.BlogService.GetUserResponse retVal = ((BlogClient.BlogService.BlogServiceSoap)(this)).GetUser(inValue);
             return retVal.Body.GetUserResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.GetUserResponse> WindowsFormsApp1.BlogService.BlogServiceSoap.GetUserAsync(WindowsFormsApp1.BlogService.GetUserRequest request) {
+        System.Threading.Tasks.Task<BlogClient.BlogService.GetUserResponse> BlogClient.BlogService.BlogServiceSoap.GetUserAsync(BlogClient.BlogService.GetUserRequest request) {
             return base.Channel.GetUserAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.GetUserResponse> GetUserAsync(string username) {
-            WindowsFormsApp1.BlogService.GetUserRequest inValue = new WindowsFormsApp1.BlogService.GetUserRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.GetUserRequestBody();
+        public System.Threading.Tasks.Task<BlogClient.BlogService.GetUserResponse> GetUserAsync(string username) {
+            BlogClient.BlogService.GetUserRequest inValue = new BlogClient.BlogService.GetUserRequest();
+            inValue.Body = new BlogClient.BlogService.GetUserRequestBody();
             inValue.Body.username = username;
-            return ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).GetUserAsync(inValue);
+            return ((BlogClient.BlogService.BlogServiceSoap)(this)).GetUserAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApp1.BlogService.GetUsersResponse WindowsFormsApp1.BlogService.BlogServiceSoap.GetUsers(WindowsFormsApp1.BlogService.GetUsersRequest request) {
+        BlogClient.BlogService.GetUsersResponse BlogClient.BlogService.BlogServiceSoap.GetUsers(BlogClient.BlogService.GetUsersRequest request) {
             return base.Channel.GetUsers(request);
         }
         
-        public WindowsFormsApp1.BlogService.UserInfo[] GetUsers() {
-            WindowsFormsApp1.BlogService.GetUsersRequest inValue = new WindowsFormsApp1.BlogService.GetUsersRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.GetUsersRequestBody();
-            WindowsFormsApp1.BlogService.GetUsersResponse retVal = ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).GetUsers(inValue);
+        public BlogClient.BlogService.UserInfo[] GetUsers() {
+            BlogClient.BlogService.GetUsersRequest inValue = new BlogClient.BlogService.GetUsersRequest();
+            inValue.Body = new BlogClient.BlogService.GetUsersRequestBody();
+            BlogClient.BlogService.GetUsersResponse retVal = ((BlogClient.BlogService.BlogServiceSoap)(this)).GetUsers(inValue);
             return retVal.Body.GetUsersResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.GetUsersResponse> WindowsFormsApp1.BlogService.BlogServiceSoap.GetUsersAsync(WindowsFormsApp1.BlogService.GetUsersRequest request) {
+        System.Threading.Tasks.Task<BlogClient.BlogService.GetUsersResponse> BlogClient.BlogService.BlogServiceSoap.GetUsersAsync(BlogClient.BlogService.GetUsersRequest request) {
             return base.Channel.GetUsersAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.GetUsersResponse> GetUsersAsync() {
-            WindowsFormsApp1.BlogService.GetUsersRequest inValue = new WindowsFormsApp1.BlogService.GetUsersRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.GetUsersRequestBody();
-            return ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).GetUsersAsync(inValue);
+        public System.Threading.Tasks.Task<BlogClient.BlogService.GetUsersResponse> GetUsersAsync() {
+            BlogClient.BlogService.GetUsersRequest inValue = new BlogClient.BlogService.GetUsersRequest();
+            inValue.Body = new BlogClient.BlogService.GetUsersRequestBody();
+            return ((BlogClient.BlogService.BlogServiceSoap)(this)).GetUsersAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApp1.BlogService.AddBlogResponse WindowsFormsApp1.BlogService.BlogServiceSoap.AddBlog(WindowsFormsApp1.BlogService.AddBlogRequest request) {
+        BlogClient.BlogService.AddBlogResponse BlogClient.BlogService.BlogServiceSoap.AddBlog(BlogClient.BlogService.AddBlogRequest request) {
             return base.Channel.AddBlog(request);
         }
         
         public string AddBlog(string title, string author, string content) {
-            WindowsFormsApp1.BlogService.AddBlogRequest inValue = new WindowsFormsApp1.BlogService.AddBlogRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.AddBlogRequestBody();
+            BlogClient.BlogService.AddBlogRequest inValue = new BlogClient.BlogService.AddBlogRequest();
+            inValue.Body = new BlogClient.BlogService.AddBlogRequestBody();
             inValue.Body.title = title;
             inValue.Body.author = author;
             inValue.Body.content = content;
-            WindowsFormsApp1.BlogService.AddBlogResponse retVal = ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).AddBlog(inValue);
+            BlogClient.BlogService.AddBlogResponse retVal = ((BlogClient.BlogService.BlogServiceSoap)(this)).AddBlog(inValue);
             return retVal.Body.AddBlogResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.AddBlogResponse> WindowsFormsApp1.BlogService.BlogServiceSoap.AddBlogAsync(WindowsFormsApp1.BlogService.AddBlogRequest request) {
+        System.Threading.Tasks.Task<BlogClient.BlogService.AddBlogResponse> BlogClient.BlogService.BlogServiceSoap.AddBlogAsync(BlogClient.BlogService.AddBlogRequest request) {
             return base.Channel.AddBlogAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.AddBlogResponse> AddBlogAsync(string title, string author, string content) {
-            WindowsFormsApp1.BlogService.AddBlogRequest inValue = new WindowsFormsApp1.BlogService.AddBlogRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.AddBlogRequestBody();
+        public System.Threading.Tasks.Task<BlogClient.BlogService.AddBlogResponse> AddBlogAsync(string title, string author, string content) {
+            BlogClient.BlogService.AddBlogRequest inValue = new BlogClient.BlogService.AddBlogRequest();
+            inValue.Body = new BlogClient.BlogService.AddBlogRequestBody();
             inValue.Body.title = title;
             inValue.Body.author = author;
             inValue.Body.content = content;
-            return ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).AddBlogAsync(inValue);
+            return ((BlogClient.BlogService.BlogServiceSoap)(this)).AddBlogAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApp1.BlogService.GetBlogsResponse WindowsFormsApp1.BlogService.BlogServiceSoap.GetBlogs(WindowsFormsApp1.BlogService.GetBlogsRequest request) {
+        BlogClient.BlogService.GetBlogsResponse BlogClient.BlogService.BlogServiceSoap.GetBlogs(BlogClient.BlogService.GetBlogsRequest request) {
             return base.Channel.GetBlogs(request);
         }
         
-        public WindowsFormsApp1.BlogService.BlogInfo[] GetBlogs(string id) {
-            WindowsFormsApp1.BlogService.GetBlogsRequest inValue = new WindowsFormsApp1.BlogService.GetBlogsRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.GetBlogsRequestBody();
+        public BlogClient.BlogService.BlogInfo[] GetBlogs(string id) {
+            BlogClient.BlogService.GetBlogsRequest inValue = new BlogClient.BlogService.GetBlogsRequest();
+            inValue.Body = new BlogClient.BlogService.GetBlogsRequestBody();
             inValue.Body.id = id;
-            WindowsFormsApp1.BlogService.GetBlogsResponse retVal = ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).GetBlogs(inValue);
+            BlogClient.BlogService.GetBlogsResponse retVal = ((BlogClient.BlogService.BlogServiceSoap)(this)).GetBlogs(inValue);
             return retVal.Body.GetBlogsResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.GetBlogsResponse> WindowsFormsApp1.BlogService.BlogServiceSoap.GetBlogsAsync(WindowsFormsApp1.BlogService.GetBlogsRequest request) {
+        System.Threading.Tasks.Task<BlogClient.BlogService.GetBlogsResponse> BlogClient.BlogService.BlogServiceSoap.GetBlogsAsync(BlogClient.BlogService.GetBlogsRequest request) {
             return base.Channel.GetBlogsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.GetBlogsResponse> GetBlogsAsync(string id) {
-            WindowsFormsApp1.BlogService.GetBlogsRequest inValue = new WindowsFormsApp1.BlogService.GetBlogsRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.GetBlogsRequestBody();
+        public System.Threading.Tasks.Task<BlogClient.BlogService.GetBlogsResponse> GetBlogsAsync(string id) {
+            BlogClient.BlogService.GetBlogsRequest inValue = new BlogClient.BlogService.GetBlogsRequest();
+            inValue.Body = new BlogClient.BlogService.GetBlogsRequestBody();
             inValue.Body.id = id;
-            return ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).GetBlogsAsync(inValue);
+            return ((BlogClient.BlogService.BlogServiceSoap)(this)).GetBlogsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApp1.BlogService.GetBlogDetailResponse WindowsFormsApp1.BlogService.BlogServiceSoap.GetBlogDetail(WindowsFormsApp1.BlogService.GetBlogDetailRequest request) {
+        BlogClient.BlogService.GetBlogDetailResponse BlogClient.BlogService.BlogServiceSoap.GetBlogDetail(BlogClient.BlogService.GetBlogDetailRequest request) {
             return base.Channel.GetBlogDetail(request);
         }
         
-        public WindowsFormsApp1.BlogService.BlogDetail GetBlogDetail(string id) {
-            WindowsFormsApp1.BlogService.GetBlogDetailRequest inValue = new WindowsFormsApp1.BlogService.GetBlogDetailRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.GetBlogDetailRequestBody();
+        public BlogClient.BlogService.BlogDetail GetBlogDetail(string id) {
+            BlogClient.BlogService.GetBlogDetailRequest inValue = new BlogClient.BlogService.GetBlogDetailRequest();
+            inValue.Body = new BlogClient.BlogService.GetBlogDetailRequestBody();
             inValue.Body.id = id;
-            WindowsFormsApp1.BlogService.GetBlogDetailResponse retVal = ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).GetBlogDetail(inValue);
+            BlogClient.BlogService.GetBlogDetailResponse retVal = ((BlogClient.BlogService.BlogServiceSoap)(this)).GetBlogDetail(inValue);
             return retVal.Body.GetBlogDetailResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.GetBlogDetailResponse> WindowsFormsApp1.BlogService.BlogServiceSoap.GetBlogDetailAsync(WindowsFormsApp1.BlogService.GetBlogDetailRequest request) {
+        System.Threading.Tasks.Task<BlogClient.BlogService.GetBlogDetailResponse> BlogClient.BlogService.BlogServiceSoap.GetBlogDetailAsync(BlogClient.BlogService.GetBlogDetailRequest request) {
             return base.Channel.GetBlogDetailAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.GetBlogDetailResponse> GetBlogDetailAsync(string id) {
-            WindowsFormsApp1.BlogService.GetBlogDetailRequest inValue = new WindowsFormsApp1.BlogService.GetBlogDetailRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.GetBlogDetailRequestBody();
+        public System.Threading.Tasks.Task<BlogClient.BlogService.GetBlogDetailResponse> GetBlogDetailAsync(string id) {
+            BlogClient.BlogService.GetBlogDetailRequest inValue = new BlogClient.BlogService.GetBlogDetailRequest();
+            inValue.Body = new BlogClient.BlogService.GetBlogDetailRequestBody();
             inValue.Body.id = id;
-            return ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).GetBlogDetailAsync(inValue);
+            return ((BlogClient.BlogService.BlogServiceSoap)(this)).GetBlogDetailAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApp1.BlogService.GetBlogCommentsResponse WindowsFormsApp1.BlogService.BlogServiceSoap.GetBlogComments(WindowsFormsApp1.BlogService.GetBlogCommentsRequest request) {
+        BlogClient.BlogService.GetBlogCommentsResponse BlogClient.BlogService.BlogServiceSoap.GetBlogComments(BlogClient.BlogService.GetBlogCommentsRequest request) {
             return base.Channel.GetBlogComments(request);
         }
         
-        public WindowsFormsApp1.BlogService.CommentInfo[] GetBlogComments(string BlogId) {
-            WindowsFormsApp1.BlogService.GetBlogCommentsRequest inValue = new WindowsFormsApp1.BlogService.GetBlogCommentsRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.GetBlogCommentsRequestBody();
+        public BlogClient.BlogService.CommentInfo[] GetBlogComments(string BlogId) {
+            BlogClient.BlogService.GetBlogCommentsRequest inValue = new BlogClient.BlogService.GetBlogCommentsRequest();
+            inValue.Body = new BlogClient.BlogService.GetBlogCommentsRequestBody();
             inValue.Body.BlogId = BlogId;
-            WindowsFormsApp1.BlogService.GetBlogCommentsResponse retVal = ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).GetBlogComments(inValue);
+            BlogClient.BlogService.GetBlogCommentsResponse retVal = ((BlogClient.BlogService.BlogServiceSoap)(this)).GetBlogComments(inValue);
             return retVal.Body.GetBlogCommentsResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.GetBlogCommentsResponse> WindowsFormsApp1.BlogService.BlogServiceSoap.GetBlogCommentsAsync(WindowsFormsApp1.BlogService.GetBlogCommentsRequest request) {
+        System.Threading.Tasks.Task<BlogClient.BlogService.GetBlogCommentsResponse> BlogClient.BlogService.BlogServiceSoap.GetBlogCommentsAsync(BlogClient.BlogService.GetBlogCommentsRequest request) {
             return base.Channel.GetBlogCommentsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.GetBlogCommentsResponse> GetBlogCommentsAsync(string BlogId) {
-            WindowsFormsApp1.BlogService.GetBlogCommentsRequest inValue = new WindowsFormsApp1.BlogService.GetBlogCommentsRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.GetBlogCommentsRequestBody();
+        public System.Threading.Tasks.Task<BlogClient.BlogService.GetBlogCommentsResponse> GetBlogCommentsAsync(string BlogId) {
+            BlogClient.BlogService.GetBlogCommentsRequest inValue = new BlogClient.BlogService.GetBlogCommentsRequest();
+            inValue.Body = new BlogClient.BlogService.GetBlogCommentsRequestBody();
             inValue.Body.BlogId = BlogId;
-            return ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).GetBlogCommentsAsync(inValue);
+            return ((BlogClient.BlogService.BlogServiceSoap)(this)).GetBlogCommentsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApp1.BlogService.AddBlogCommentResponse WindowsFormsApp1.BlogService.BlogServiceSoap.AddBlogComment(WindowsFormsApp1.BlogService.AddBlogCommentRequest request) {
+        BlogClient.BlogService.AddBlogCommentResponse BlogClient.BlogService.BlogServiceSoap.AddBlogComment(BlogClient.BlogService.AddBlogCommentRequest request) {
             return base.Channel.AddBlogComment(request);
         }
         
         public string AddBlogComment(string BlogId, string author, string content) {
-            WindowsFormsApp1.BlogService.AddBlogCommentRequest inValue = new WindowsFormsApp1.BlogService.AddBlogCommentRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.AddBlogCommentRequestBody();
+            BlogClient.BlogService.AddBlogCommentRequest inValue = new BlogClient.BlogService.AddBlogCommentRequest();
+            inValue.Body = new BlogClient.BlogService.AddBlogCommentRequestBody();
             inValue.Body.BlogId = BlogId;
             inValue.Body.author = author;
             inValue.Body.content = content;
-            WindowsFormsApp1.BlogService.AddBlogCommentResponse retVal = ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).AddBlogComment(inValue);
+            BlogClient.BlogService.AddBlogCommentResponse retVal = ((BlogClient.BlogService.BlogServiceSoap)(this)).AddBlogComment(inValue);
             return retVal.Body.AddBlogCommentResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.AddBlogCommentResponse> WindowsFormsApp1.BlogService.BlogServiceSoap.AddBlogCommentAsync(WindowsFormsApp1.BlogService.AddBlogCommentRequest request) {
+        System.Threading.Tasks.Task<BlogClient.BlogService.AddBlogCommentResponse> BlogClient.BlogService.BlogServiceSoap.AddBlogCommentAsync(BlogClient.BlogService.AddBlogCommentRequest request) {
             return base.Channel.AddBlogCommentAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WindowsFormsApp1.BlogService.AddBlogCommentResponse> AddBlogCommentAsync(string BlogId, string author, string content) {
-            WindowsFormsApp1.BlogService.AddBlogCommentRequest inValue = new WindowsFormsApp1.BlogService.AddBlogCommentRequest();
-            inValue.Body = new WindowsFormsApp1.BlogService.AddBlogCommentRequestBody();
+        public System.Threading.Tasks.Task<BlogClient.BlogService.AddBlogCommentResponse> AddBlogCommentAsync(string BlogId, string author, string content) {
+            BlogClient.BlogService.AddBlogCommentRequest inValue = new BlogClient.BlogService.AddBlogCommentRequest();
+            inValue.Body = new BlogClient.BlogService.AddBlogCommentRequestBody();
             inValue.Body.BlogId = BlogId;
             inValue.Body.author = author;
             inValue.Body.content = content;
-            return ((WindowsFormsApp1.BlogService.BlogServiceSoap)(this)).AddBlogCommentAsync(inValue);
+            return ((BlogClient.BlogService.BlogServiceSoap)(this)).AddBlogCommentAsync(inValue);
         }
     }
 }
